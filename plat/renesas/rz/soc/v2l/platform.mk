@@ -5,7 +5,7 @@
 #
 
 include plat/renesas/rz/common/rz_common.mk
-include plat/renesas/rz/board/${BOARD}/rz_board.mk
+include plat/renesas/rz/board/sm2s-rzv2l/rz_board.mk
 
 PLAT_INCLUDES	+=	-Iplat/renesas/rz/soc/v2l/include
 
